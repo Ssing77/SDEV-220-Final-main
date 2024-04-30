@@ -8,5 +8,9 @@
 <body>
     <h1>Definition of {{ word }}</h1>
     <p>{{ definition }}</p>
+    <form action="/translate" method="post">
+        <input type="text" name="word" placeholder="Enter a new word">
+        <button type="submit">Search</button>
+    </form>
 </body>
 </html>
