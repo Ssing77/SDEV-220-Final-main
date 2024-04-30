@@ -7,7 +7,9 @@
 </head>
 <body>
     <h1>Did you mean {{ suggestion }}?</h1>
-    <p>If yes, please click the link below to see the definition.</p>
-    <a href="/translate?word={{ suggestion }}">See Definition</a>
+    <p>If yes, please click the write the word below to see the definition.</p>
+    <form action="/translate" method="post">
+    <input type="text" name="word" placeholder="Enter word">
+    <button type="submit">Search</button>
 </body>
 </html>
