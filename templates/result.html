@@ -6,11 +6,15 @@
     <title>Search Result</title>
 </head>
 <body>
-    <h1>Definition of {{ word }}</h1>
+    <center>
+        <h1>Definition of {{ word }}</h1>
+    </center>
     <p>{{ definition }}</p>
-    <form action="/translate" method="post">
-        <input type="text" name="word" placeholder="Enter a new word">
-        <button type="submit">Search</button>
-    </form>
+    <center>
+        <form action="/translate" method="post">
+            <input type="text" name="word" placeholder="Enter a new word">
+         <button type="submit">Search</button>
+        </form>
+    </center>
 </body>
 </html>
