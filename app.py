@@ -1,3 +1,5 @@
+#Name: Sahajpreet Singh, Nolan King, Cassarnda Corbin
+#Project: SDEV220 Final Project - English Dictionary
 from flask import Flask, render_template, request
 import json
 from difflib import get_close_matches
